@@ -1,0 +1,267 @@
+
+This query is structured in AI from the original query COMPILER_Oflameron_Language_Rotation_1.50 gen_2.txt 
+Oflameron Language Version 1.50 - Specification of the "compiler" query for generating program code in the Oflameron language and its obfuscation, dated February 16, 2026 (MIT License)
+The actual task for developing specific program code in the Oflameron language is the last two lines of the text "12A. Task to be performed."
+Replace them with your task to be performed.
+For multiple layers of conversion of your text into code, use the "compiler" prompt multiple times, with the processing results as the input for the next processing. For example: first, your text -> Oflameron code -> XOR -> convert to JavaScript (or VBA or Python, or something else) -> publish text
+Oflameron language interpreter ver 1.50 gen 7 - https://proposed-gray-cattle.myfilebase.com/ipfs/QmXMVBgdZez4VfeKpoKKfSJ3j1oVfTHztmnvC2oYNSoz3x
+
+AI Prompt
+
+1. General Description
+An Oflameron program is a text string that is scanned by the Interpreter strictly from left to right. Program code always begins with an operator.
+
+When executed in the Interpreter, the program outputs user-specified text (text, text script, or code listing of any language).
+
+2. Character Set
+The full character set used in Oflameron version 1.50:
+
+a, b, c, d, e, p, t, v, w, h, q, l, k, f, g, i, m, n, s, x
+
+All other symbols have no function in the Oflameron language and are simply skipped—these are filler symbols added to conceal program code.
+
+3. Symbol Classification
+3.1. Constants (positions 1–9 in SYMBOL_ORDER)
+Symbol Meaning
+a	0
+b	1
+c	3
+d	5
+e	7
+p	19
+t	23
+v	43
+w	73
+
+3.2. Variables (positions 10–13 in SYMBOL_ORDER)
+h — primary working variable (stores calculation results)
+
+q — auxiliary variable
+
+l — variable for storing read codes, also used as an operator
+
+k — current code position indicator (read-only, changes automatically)
+
+Initial values ​​of all variables = 0.
+
+3.3. Operators (positions 14–18 in SYMBOL_ORDER)
+f, g, i, l, m, n
+
+3.4. Control Characters (positions 19–20 in SYMBOL_ORDER)
+s, x — reserved for future use, not considered dead space
+
+3.5. Deadweight Symbols
+All symbols not in the list a, b, c, d, e, p, t, v, w, h, q, l, k, f, g, i, m, n, s, x are deadweight symbols and are ignored by the translator.
+
+4. SYMBOL_ORDER and Functionality
+The Interpreter uses an internal variable, SYMBOL_ORDER, an array that determines the order of constants, variables, operators, and control symbols:
+
+javascript
+SYMBOL_ORDER = [
+'a','b','c','d','e','p','t','v','w', // 1-9: constants
+'h','q','l','k', // 10-13: variables
+'f','g','i','m','n', // 14-18: operators
+'s','x' // 19-20: control
+]
+Important: The functionality of a symbol is determined by its position in the array, not by the symbol itself. When rotating, symbols move around, but the functionality type (constant/variable/operator) remains bound to the position.
+
+5. Length of Constructions
+Constants — 1 character
+
+Variables — 1 character
+
+Operators f, g, i — 3 characters (operator + 2 parameters)
+
+Operators m, l, n — 2 characters (operator + 1 parameter)
+
+Control characters s, x — 2 characters (reserved)
+
+Special Cases with the l Character
+The l character can serve two roles:
+
+As the lX operator (when used in operator position), it reads a character from the code and stores its ASCII code in the l variable.
+
+As a variable (when used as a parameter to other operators), it stores a numeric value.
+
+The context of use determines the role of the symbol. For example:
+
+fal — here, l is a variable (the parameter of the f operator)
+
+fbal — here, l is an operator (fb is followed by the l operator with a parameter)
+
+6. Number Normalization
+After each mathematical operation, the normalization function is applied to the result:
+
+javascript
+function normalize(num) {
+while (num > 127) num -= 127;
+if (num < 0) num = Math.abs(num);
+return Math.floor(num);
+}
+This ensures that all values ​​used are in the ASCII range 0–127.
+
+7. Operators (Basic Functionality, Before Rotation)
+7.1. Three-character operators (f, g, i)
+Format: fXY, gXY, iXY, where X and Y are parameters (constants or variables).
+
+Operator Action Size Change k
+fXY Multiplication: h = normalize(X * Y) 3 characters k += 3
+gXY Addition: h = normalize(X + Y) 3 characters k += 3
+iXY Subtraction: h = normalize(|X - Y|) 3 characters k += 3
+7.2. Two-character operators (l, m, n)
+Format: lX, mX, nX, where X is a parameter (constant or variable).
+
+Operator Action Size Change k
+lX Read a character: The ASCII code of the character located in the cleared program line at position k + normalize(X) 2 characters k += 2 is written to variable l
+mX Print a character: The character with the ASCII code normalize(X) 2 characters k += 2 is printed to the screen
+nX Replace a character: The character in the cleared program line at position k + normalize(X) is replaced with the character with the ASCII code normalize(h) 2 characters k += 2
+8. Pointer k
+k is the current position pointer in the program code line.
+
+The initial value of k is 0.
+
+k only increments as the program executes.
+
+Movement through the code is determined by the executed operators:
+
+After f, g, i: k += 3
+
+After l, m, n: k += 2
+
+If an error or unknown symbol occurs: k += 1 (skip symbol)
+
+9. Functionality Rotation
+9.1. General Principle
+Rotation is a cyclical shift of symbol functions to the right along the SYMBOL_ORDER list by STP positions.
+A rotation is performed after each executed statement.
+
+The STP value is set before program execution.
+By default, STP = 1. If STP = 0, rotation is not performed.
+
+9.2. Program Execution Algorithm with Rotation
+For each statement in the code (after removing deadhead):
+
+Determine the current functionality of all symbols, taking into account all previous shifts.
+
+Execute the statement using its current functionality.
+
+Increment the pointer k by the length of the statement (2 or 3).
+
+Perform rotation: cyclically shift the functionality of all symbols by STP positions to the right.
+
+Go to the next statement (position k).
+
+9.3. Rotation Table
+Symbol	STP=0	STP=1	STP=2	STP=3	STP=4	STP=5	STP=6	STP=7	STP=8	STP=9	STP=10	STP=11	STP=12	STP=13	STP=14	STP=15	STP=16	STP=17	STP=18	STP=19
+a	a	b	c	d	e	p	t	v	w	h	q	l	k	f	g	i	m	n	s	x
+b	b	c	d	e	p	t	v	w	h	q	l	k	f	g	i	m	n	s	x	a
+c	c	d	e	p	t	v	w	h	q	l	k	f	g	i	m	n	s	x	a	b
+d	d	e	p	t	v	w	h	q	l	k	f	g	i	m	n	s	x	a	b	c
+e	e	p	t	v	w	h	q	l	k	f	g	i	m	n	s	x	a	b	c	d
+p	p	t	v	w	h	q	l	k	f	g	i	m	n	s	x	a	b	c	d	e
+t	t	v	w	h	q	l	k	f	g	i	m	n	s	x	a	b	c	d	e	p
+v	v	w	h	q	l	k	f	g	i	m	n	s	x	a	b	c	d	e	p	t
+w	w	h	q	l	k	f	g	i	m	n	s	x	a	b	c	d	e	p	t	v
+h	h	q	l	k	f	g	i	m	n	s	x	a	b	c	d	e	p	t	v	w
+q	q	l	k	f	g	i	m	n	s	x	a	b	c	d	e	p	t	v	w	h
+l	l	k	f	g	i	m	n	s	x	a	b	c	d	e	p	t	v	w	h	q
+k	k	f	g	i	m	n	s	x	a	b	c	d	e	p	t	v	w	h	q	l
+f	f	g	i	m	n	s	x	a	b	c	d	e	p	t	v	w	h	q	l	k
+g	g	i	m	n	s	x	a	b	c	d	e	p	t	v	w	h	q	l	k	f
+i	i	m	n	s	x	a	b	c	d	e	p	t	v	w	h	q	l	k	f	g
+m	m	n	s	x	a	b	c	d	e	p	t	v	w	h	q	l	k	f	g	i
+n	n	s	x	a	b	c	d	e	p	t	v	w	h	q	l	k	f	g	i	m
+s	s	x	a	b	c	d	e	p	t	v	w	h	q	l	k	f	g	i	m	n
+x	x	a	b	c	d	e	p	t	v	w	h	q	l	k	f	g	i	m	n	s
+
+9.4. Rotation Period
+When STP = 1, the rotation period is 20 statements.
+That is, after executing 20 statements, the symbols' functionality returns to its original state.
+When STP = 20, no rotation occurs (equivalent to STP = 0).
+
+10. Error Handling During Rotation
+If, after rotation, an operator has an inappropriate arity (number of parameters):
+
+If an operator requires 2 parameters but becomes a 1-parameter operator (e.g., f → l):
+Only the first parameter is used, the second parameter is ignored (skipped as erroneous, k + 1).
+
+If an operator requires 1 parameter but becomes a 2-parameter operator (e.g., l → f):
+If the code after an operator contains only one symbol, the operator is considered erroneous and is skipped entirely (k is incremented by the length of the original construct).
+
+If a parameter becomes an operator after rotation (invalid in this context):
+The operator is skipped, and k is incremented by its length.
+
+11. Code Cleanup
+Before execution, the translator removes all unnecessary symbols (not included in SYMBOL_ORDER), leaving only the meaningful symbols of the Oflameron language.
+
+Obfuscation example:
+
+Original cleaned code:
+
+text
+fcdfhdghdihbmhghdghdghdghdghcmhghcghcmhihdihdihbmhghcghcghcghcmhihdihcmhgheghdghbmhihcmhihbmh
+Obfuscated version (with ballast):
+
+text
+f(cdfhdghd)*ihbm.hgh/dghdgh=dghdgh12cmhghc-ghcmh**ihdih{dihbmhghcghc}ghcg-hc#mhihdi$$hcmhghe&ghdghbmhihcmhihbmh
+After clearing the second line of ballast, the first line is obtained.
+
+Important: All operator actions (lX, nX) are performed on the cleaned code. Obfuscation (adding ballast) is the final step in preparing the final program.
+
+12. Execution Examples
+Example 1. STP = 1, code "fbcgde"
+Initial state: k = 0, h = 0, initial SYMBOL_ORDER
+
+Statement 1 (fbc)
+
+f → Multiplication
+
+Parameters: b=1, c=3
+
+Calculation: h = normalize(1 * 3) = 3
+
+k += 3 → k = 3
+
+Rotation: shift by 1 to the right
+
+Operator 2 (gde)
+
+After rotation: g executes function i (subtraction)
+
+Parameters: d=5, e=7
+
+Calculation: h = normalize(|5 - 7|) = 2
+
+k += 3 → k = 6
+
+Rotation: shift by 1 to the right
+
+Result: h = 2
+
+Example 2. STP = 2, code "fbcfbc"
+Initial state: k = 0, h = 0
+
+Operator 1 (fbc)
+
+f → multiplication
+
+Parameters: b=1, c=3
+
+Calculation: h = normalize(1 * 3) = 3
+
+k += 3 → k = 3
+
+Rotation: shift by 2 to the right
+Operator 2 (fbc) — now f performs the function i (subtraction)
+Parameters: after rotation, b performs the function of operator n (not allowed as a parameter)
+Error: operator skipped, k += 3 → k = 6
+
+12A. Task to complete
+Encode the text "Mission Oflameron" (let's call it CODE1) in the Offlameron language with STP = 0.
+Then write a Python program with loops and functions that prints the text CODE1.
+
+(MIT License)
+
+https://pixelfed.ru/p/Jettman/932235056422014763
+
+(c) by Valery Shmelev
