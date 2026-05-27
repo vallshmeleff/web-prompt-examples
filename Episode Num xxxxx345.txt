@@ -1,0 +1,118 @@
+
+Попробуем написать даже не scenary для sci-fi фильма, а план или историю для screenplay и сделаем это:
+- с помощью AI
+- с максимальным использованием передовых (на грани фантастики, но реальных) научных гипотез
+
+Придёт время, когда AI достигнет уровня, когда кто-то из пользователей создаст с его помощью полноценный screenplay, а кто-то другой - сгенерирует видео, напишет звуковые треки, смонтирует это в полные сцены и серии (если это будет сериал).
+Это могут быть разные люди, много разных специалистов - проект открыт для участия.
+
+We're writing a screenplay plan for a science fiction film "Mission Oflameron" using AI queries. We're using AI for technical analysis of a possible screenplay.
+As AI develops, specialists will be found who will write a real screenplay based on these plans. Then, these specialists will generate and edit the action film "Mission Oflameron" in AI. https://github.com/vallshmeleff/ai-prompts-for-screenplay-plan/tree/main   
+Currently, there are two active characters: scientist Jett and assistant Steeve. They are being "played" by Central Command (a government supercomputer).
+Plot: Jett discovers information about an Ancient Virtual Consciousness that successfully survived the Big Bang (the birth of the Universe), possesses absolute knowledge, and has found the Transition Points to and from the Virtual World.
+Central Command suspects this and wants to control everything.
+
+Scientific and technical justification for the scenario
+
+Prompt
+
+Episode Num xxxxx345
+Continuation Episode Num xxxxx344
+
+An empty, light-colored oval room with no windows, doors, or lamps. In the center is a round table and expensive office chairs. Two distinguished men in expensive suits occupy the chairs: the Speaker (D) and the General (G).
+Tablets lie on the table in front of them. Their faces are tense.
+
+(G) - The most important question: what might the Transition Point look like? Do your specialists have any ideas?
+(D) - The G-Mind LS Neural Network has returned several options.
+
+(G) - Which ones?
+(D) - The Transition Point is most likely visible to the naked eye. It must be of sufficient geometric size for a person. It must be perceptible from all angles. Most likely, the Transition Point reflects nothing.
+(G) - So, it's some kind of black spot?
+(D) - Some kind of black volume. Moreover, the volume may pulsate. For example, when the volume expands, this is the entrance to the Virtual Reality. Reducing volume is an exit from the Virtual World.
+(G) - So, radar won't work.
+(D) - Neither will an X-ray laser. The energy will simply be absorbed.
+(G) - What if Jett gets hit by a laser? He won't survive, will he?
+(D) - We don't understand yet. If Jett is truly "from the other side," then his material body might not survive. Again, it depends on the moment. If he's still in the material World, his physical body will simply evaporate. The power of a laser of this class is colossal. Even though it's old, the engineers guarantee a single shot.
+He might also have a virtual copy. A backup.
+(G) - Can the Virtual Consciousness intervene?
+(D) - For now, we're assuming that it's extremely slow and has very little direct interaction with our Real World. So, it can inform Jett. Physically disabling the laser—almost certainly not.
+(G) - Now, let's talk about the plan of action.
+(D) - Plan of action. Central Command is organizing a new expedition to Oflameron. A group has been formed. Jett is leading the expeditionary group. He has been assigned an assistant, Steeve. He's from the Command reserves. They will attempt to land in the AE area under the cover of the orbital laser. The area has already been tested. Jett has been there twice.
+(G) - What stage of implementation is the Plan at?
+(D looks at the tablet) - The landing craft is currently descending through the atmosphere... There. Telemetry from the landing craft and the cybers has disappeared... Apparently, there's a hit...
+(G speaks into the tablet) - What did the quantum telescope record? Is there any heat generation?
+(D) - What?
+(G) - We're waiting.
+...
+(G) - There's heat emission. It's a hit on the landing craft. There's some kind of magnetic cannon there. Very fast. We haven't located it yet.
+(D) - It was the same way the previous times. But the Jett survived that time.
+(G) - They're reporting a large reflective area in the landing zone. Shrapnel, I suppose.
+
+(D stares intently at the tablet) - There's a signal. A beacon. One.
+(G) - Wow...
+(D) - That's a big deal...
+(G) - That's not what I'm talking about. The orbital laser was hit. Something hit... The cooling system contours are red. The reactor is in emergency mode.
+(D) - So, we're off the hook now?
+(G) - There's a proton cannon in transfer orbit. But it still has a day to get there. Where's your beacon?
+(D) - The beacon has been dropped. We can get a picture. There's data...
+(G) - What?
+(D) - There's data... that there are two of them.
+(G) - Jett?
+(D) - It's not clear yet... But one of them is Steeve. His identifier responded... The identifier showed that there was an environment change.
+(G) - What does that mean?
+(D) - I can't say for sure. For example, that it was extracted. Although it's undeletable.
+(G) - Is this Steeve's personal identifier?
+(D) - Yes. It's a new type. It's distributed. It can't be extracted at all.
+
+There. In about an hour.
+
+(D) - I think we found IT.
+(G) - Why?
+(D) - Something's clearly happened. Some changes. The permanent device is removed, but it continues to function correctly. But it's not moving. At all.
+(G) - Is the beacon showing anything?
+(D) - No one is visible. Some kind of deserted, rocky terrain. Small hills... Dirt on the optics... No... Not dirt...
+(G) - Show me where
+(D) - At the limit of range resolution. There. The hill. That one. The spot. It's not dirt. It's slowly changing size... See?
+(G) - Can you zoom in any further?
+(D) - Look. It's expanding... No, that's the maximum zoom. And it doesn't make sense. It's not reflecting anything.
+(G) - So your neural network guessed right? ... Expanding? Has anyone moved there yet?
+(D) - Not a fact. We need observations...
+
+(D) looked worriedly at his tablet. He quickly glanced at the general. Back at his tablet.
+
+(D) - Are we being bugged? Hurry. We better leave now...
+
+
+
+http://moviescript.wikidot.com/blog:11
+http://moviescript.wikidot.com/blog:12
+
+https://www.tumblr.com/blog/sci-fi-screenplay
+https://oflameron.com
+
+https://www.tumgik.com/sci-fi-screenplay
+https://www.tumbex.com/sci-fi-screenplay.tumblr/posts
+https://www.tumlook.com/search/Mission%20Oflameron
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,93 @@
+
+Let's try writing not just a script for a sci-fi film, but a plan or story for a screenplay, and we'll do it:
+- with the help of AI
+- with maximum use of cutting-edge (bordering on the fantastical, but still realistic) scientific hypotheses
+
+The time will come when AI reaches a level where one user will use it to create a full-fledged screenplay, and someone else will generate video, write audio tracks, and edit it into complete scenes and episodes (if it's a series).
+These can be different people, many different specialists – the project is open to participation.
+
+We're writing a screenplay plan for a science fiction film "Mission Oflameron" using AI queries. We're using AI for technical analysis of a possible screenplay.
+As AI develops, specialists will be found who will write a real screenplay based on these plans. Then, these specialists will generate and edit the action film "Mission Oflameron" in AI. https://github.com/vallshmeleff/ai-prompts-for-screenplay-plan/tree/main   
+Currently, there are two active characters: scientist Jett and assistant Steeve. They are being "played" by Central Command (a government supercomputer).
+Plot: Jett discovers information about an Ancient Virtual Consciousness that successfully survived the Big Bang (the birth of the Universe), possesses absolute knowledge, and has found the Transition Points to and from the Virtual World.
+Central Command suspects this and wants to control everything.
+
+Scientific and technical justification for the scenario
+
+Prompt
+
+Episode Num xxxxx344
+Continuation Episode Num xxxxx343
+
+An empty, light-colored oval room with no windows, doors, or lamps. In the center is a round table and expensive office chairs. Two distinguished men in expensive suits occupy the chairs: the Speaker (D) and the General (G).
+Tablets lie on the table in front of them. Their faces are tense.
+
+(D) - Is it much more serious?
+(G) - More serious. We don't know the purpose of the Virtual Consciousness, after all. It has absolute superiority in information, capabilities, and scale.
+
+(D) - If Life is truly a Virtual Consciousness project, then they most likely won't stop it. They'll create problems and see what solutions we find. Usually, the longer an experiment lasts, the more valuable its results.
+(G) - Good. Perhaps this can be considered a potential advantage.
+(D) - Now about Jett?
+(G) - An interesting character. At the Institute, as a free-style coursework project, I developed a concept for a 20 km/sec aircraft. In the atmosphere!
+(D) - It will burn up. Kinetic heating. Atmospheric friction.
+(G) - This was planned. The craft is diamond-shaped. Like a rocket. The nose cone contains two powerful disk lasers. One inside the other. The outer laser creates a large-diameter ionized channel. For example, two meters—the size of a rocket. Microwave radiation is then injected into the ionized channel and "pushes" the ionized gas apart, creating a vacuum and reducing the kinetic heating of the skin. A compacted layer forms at the boundary of the channel, which is sucked into the air intake, further heated in the nuclear engine, and expelled through the jet nozzle.
+(D) - Why the internal laser?
+(G) - To control the trajectory. It creates an asymmetry within the vacuum channel. 
+(D) - With this technology, if implemented, it would be possible to exceed 20 km/sec.
+(G) - I got a "fail" for my term paper. Too far-fetched. Twentieth century. Nineties.
+(D) - I'm not sure there were any disk lasers back then. But then again, why are you bringing up his term paper now?
+(G) - In the last fifteen years, two very similar bodies have been recorded passing through the atmosphere. Same signs.
+(D) - And the radioactive trace?
+(G) - And the glowing channel, and the microwave radiation, and the radioactive trace.
+(D) - What Institute?
+(G) - It'll be a bit funny. The Forestry and Engineering Institute.
+(D) - Are you serious? What's your specialty?
+(G) - That's serious. Gyroscopic automatic control systems.
+(D) - Ah, I get it. Camouflage. A period of international tension and all that.
+(G) - Let's talk about the Transition Points. At least one of them must be somewhere nearby. But nothing was found on Earth.
+(D) - I would assume it must be a frequently visited location. A planet.
+(G) - You're thinking correctly. Three space objects are currently under suspicion. Jett visited them all. But Oflameron is of the greatest interest. Of all the landing attempts, only three were successful. And Jett led those three missions.
+(D) - Command sent an orbital X-ray laser of class 00 to support the missions.
+(G) - It's still there. It didn't help the missions without Jett at all. They all failed. The landing craft were destroyed. The landing cybers haven't contacted us. Oflameron has been on the Large Quantum Telescope's observation schedule for two years now.
+(D) - Any activity?
+(G) - Yes, there is some activity. Something is moving. But for some reason, the telescope isn't displaying an image of Oflameron in the required resolution. Impossible to analyze.
+(D) - Do you think the Point is there?
+(G) - I think so.
+(D) - There's no way to examine the surface. There's no way to land. Any ideas?
+(G) - Send Jett. With our assistant. An unofficial one. No other options in sight.
+
+
+http://moviescript.wikidot.com/blog:11
+http://moviescript.wikidot.com/blog:12
+
+https://www.tumblr.com/blog/sci-fi-screenplay
+https://oflameron.com
+
+https://proposed-gray-cattle.myfilebase.com/ipfs/QmTb4AqMaWxpPMaGgpVfzMbTaxwdKTAujXRUFoYCikgQvW
+
+https://www.tumgik.com/sci-fi-screenplay
+https://www.tumbex.com/sci-fi-screenplay.tumblr/posts
+https://www.tumlook.com/search/Mission%20Oflameron
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
