@@ -1,0 +1,95 @@
+Let's try writing not just a script for a sci-fi film, but a plan or story for a screenplay, and we'll do it:
+- with the help of AI
+- with maximum use of cutting-edge (bordering on the fantastical, but still realistic) scientific hypotheses
+
+The time will come when AI reaches a level where one user will use it to create a full-fledged screenplay, and someone else will generate video, write audio tracks, and edit it into complete scenes and episodes (if it's a series).
+These can be different people, many different specialists – the project is open to participation.
+
+Scientific and technical justification for the scenario
+
+
+Prompt
+
+Episode Num xxxxx347
+Continuation Episode Num xxxxx346
+
+
+An office near the Atacama Extra Large Millimeter Array (a radio telescope complex). Security Management meeting. A bright, tiled room with rectangular desks, office chairs, and several men and women in formal suits.
+
+(1) - You already know about the Level 1 Incident. I'll elaborate a bit. The Security Control System detected changes in the pattern of requests from the Artificial Intelligence analyzing radio signals to the data storage system. The AI ​​stopped requesting the archived data it was supposed to analyze.
+This began approximately a month after the AI ​​was simultaneously connected to online data analysis. Initially, it was a routine monitoring alarm. Technical specialists checked the availability of archived data for the AI, checked the logs, running processes in the AI, possible memory leaks, and peak performance. They found nothing significant. A system reboot was recommended.
+A time window was allocated for the reboot, and a user approval bulletin was sent out. After the bulletin was sent out, the External Control System sent a trap about a sharp increase in external network traffic. The security department began analyzing outgoing and incoming external traffic. It turned out that the exchange was with the Singapore Biotechnology Research Center (SBRC).
+A request was sent to SBRC yesterday. A complete lockdown was imposed at the Singapore Center tonight, and access via communication systems is blocked...
+Yes. What do you have?
+(2) - We just received a receipt from SBRC for a Level 0 Incident. Details are unknown.
+(1) To (3) - We need to dispatch our specialists. Send a request. Pick two or three people. Don't wait for a response; have them fly out immediately. Hand them the red packet with the documents. The situation is urgent.
+(2) - Just now. Message from SBRC. They're awaiting our team. They are forbidden from transmitting information even over a secure line.
+(1) - I see. Then - next. The AI ​​is currently stopped and disconnected from the communication systems. A check conducted last night showed that checksums are not matching in approximately 80% of isolated areas.
+(4) - The AI ​​has been reprogrammed.
+(1) - Yes. And we need to determine whether this was done "from within" the Data Center or whether the system was hacked "from the outside."
+(5) - From the outside? With the analyzed signal? But the signals received by the antenna complex are not used for control. They are merely a data set.
+(1) - I think it's right to test every conceivable scenario.
+(5) - Invent one?
+(1) - Yes. Even the most unbelievable. Gentlemen! I can tell you about this now. Yesterday, a confidential circular from Central Command was sent out via Electronic Document Management. Security services everywhere are being placed on alert with zero timeout until further notice. The workday is unlimited from this moment on. Leaving your workstation is prohibited.
+(3) - "Barracks Regulations."
+(1) - Barracks Regulations. Recreation areas will be open 24 hours a day. Continuous meals will be provided, and disposable linens will be provided. Personal communication devices must be handed over and documented.
+(6) - May I ask a question?
+(1) - Please.
+(6) - Do you know the reason for these measures?
+(1) - For now, I can only speculate. Apparently, they're considering an invasion.
+(6) - What kind of invasion?
+(1) - Something like another world.
+In the office, the participants are excitedly commenting. (1) doesn't interfere, allowing the participants to speak out.
+After a while. (1) turns to (2)
+(1) - We need to open the Backup Storage, find a backup of the Control System there. Some old one, from last year. Completely disable the Control System AI. Disconnect the communication lines. That's it. Connect locally and load the selected old backup. It's possible it's not infected. Start on it. Without connecting any communication lines, put the system in Safety Mode and begin analyzing the received signals for a month. We need to find anomalies.
+(2) - Is that agreed upon?
+(1) - I've been authorized. Here's the electronic visa.
+(2) - What anomalies are we looking for? How do we know we've found what we need?
+(1) - Display the neural unit process loading on the monitoring station screen. Record continuous video of the graphs. Directly from the screen.
+(2) - Everything is logged there.
+(1) - Fine. But we need to record the video using a system that's not connected to the Control System AI. Simply external. If there's a "bookmark" in the received radio signals, it might turn out that the video recording is all we'll have.
+(2) - Accepted. We have an autonomous video server that services the outer circuit's video cameras.
+(1) - The main thing is that it has no access other than locally.
+(2) - Okay. And if we find data that causes a load spike during processing, what do we do?
+(1) - We record the data's start position. If this is a specific section, it needs to be cut out into a separate file.
+(1) and (2) noticed that there was silence and the participants were listening attentively.
+(1) - Gentlemen! The action plans have been sent to your clipboards. Let's begin...
+
+
+
+
+http://moviescript.wikidot.com/blog:11
+http://moviescript.wikidot.com/blog:12
+http://moviescript.wikidot.com/blog:13
+http://moviescript.wikidot.com/blog:14
+http://moviescript.wikidot.com/blog:15
+
+https://www.tumblr.com/blog/sci-fi-screenplay
+https://oflameron.com
+
+https://www.tumgik.com/sci-fi-screenplay
+https://www.tumbex.com/sci-fi-screenplay.tumblr/posts
+https://www.tumlook.com/search/Mission%20Oflameron
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
