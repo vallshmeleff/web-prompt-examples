@@ -1,0 +1,477 @@
+
+Let's write English-language JSON examples for the English-language text-based datasets below to use when training a local AI model (e.g., Qwen2.5 7B).
+
+JSON Dataset "Mission Oflameron"
+
+Scientific Research Dataset (for generating science fiction concepts based on real scientific data)
+This format allows training models to connect science fiction ideas with real scientific research, supporting the development of science fiction concepts and scenarios:
+Add copyright information to the examples for the author of "Mission Oflameron." Something like:
+"copyright": ["valery_shmelev", "valery_shmeleff", "oflameron"]
+Scientific Research Dataset (for generating science fiction concepts based on real scientific data)
+This format allows training models to connect science fiction ideas with real scientific research, supporting concept development in the field of hard science fiction:
+
+JSON
+
+
+{
+  "dataset_info": {
+    "name": "Mission Oflameron - Additional Examples",
+    "description": "Supplementary Scientific Research Dataset for generating science fiction concepts based on real scientific data",
+    "author": "valery_shmelev",
+    "copyright": ["valery_shmelev", "valery_shmeleff", "oflameron"],
+    "version": "2.0",
+    "date_created": "2026-07-03",
+    "purpose": "Additional training examples for local AI models to expand the science fiction-science connection capability"
+  },
+  "additional_examples": [
+    {
+      "id": "example_006",
+      "type": "countermeasure_analysis",
+      "source_text": "Steeve: Even with Command's capabilities, with powerful support from orbit, they failed.",
+      "query": "What defensive countermeasures could realistically defeat the cyborg dust landing technology, and how would Jett counter those measures?",
+      "defensive_measures": [
+        {
+          "measure": "Electromagnetic Pulse (EMP)",
+          "description": "A powerful EMP could fry the electronics in the dust particles, rendering them inert before they assemble.",
+          "limitation": "EMP is indiscriminate and would destroy all electronics in the area, including friendly systems. Additionally, the battlefield would be unusable for years.",
+          "jett_counter": "The particles are hardened with graphene or carbon nanotube casings that act as Faraday cages, protecting the internal electronics. Each particle also has a backup mechanical system that survives EMP to initiate a 'hard reset'."
+        },
+        {
+          "measure": "Directed Energy Weapons (Lasers)",
+          "description": "High-energy lasers could target and vaporize dust clouds before they assemble.",
+          "limitation": "The dust cloud is so massive (trillions of particles) that it would require enormous energy to destroy even 1% of it. The particles also scatter the laser beam.",
+          "jett_counter": "The dust is engineered with reflective coatings that scatter incoming laser energy, making it exceptionally difficult to focus enough power on any single particle. Additionally, the particles are so small that they don't absorb enough heat to be damaged."
+        },
+        {
+          "measure": "Chemical or Biological Agents",
+          "description": "Aerosolized acids or enzymes that dissolve the particles or their connections.",
+          "limitation": "The particles are protected by non-reactive materials and can self-assemble rapidly; chemical agents would take too long to work.",
+          "jett_counter": "The particles detect any chemical threat and either disassemble and reassemble elsewhere (migration) or activate a self-cleaning mechanism that neutralizes the agent."
+        },
+        {
+          "measure": "Counter-Dust",
+          "description": "Deploy a similar technology that attacks and destroys the incoming dust with 'anti-particle' software or physical interference.",
+          "limitation": "Counter-dust would require the same level of technology, which may not be available to the defender.",
+          "jett_counter": "The Oflameron dust has advanced IFF (Identification Friend or Foe) tags and can adapt its assembly pattern faster than counter-dust can identify and target it. Alternatively, Jett could deploy 'guardian dust' that fights the counter-dust directly."
+        },
+        {
+          "measure": "Atmospheric Distortion",
+          "description": "Create violent weather conditions (hurricanes, lightning, shockwaves) to scatter and destroy the dust before it reaches the target.",
+          "limitation": "Atmospheric manipulation requires massive energy and is not precise—it would also damage the target.",
+          "jett_counter": "The dust uses aerodynamic modules to ride the storm currents, using the chaos to actually speed up migration rather than hinder it. The particles actively harness wind energy."
+        }
+      ],
+      "ultimate_defensive_strategy": {
+        "name": "Assassin's Protocol: Target the Controller",
+        "description": "The only real defense is to identify and eliminate the source of the technology—whether it's a spaceship, a control AI, or Jett himself. Without guidance, the dust loses coordination.",
+        "why_it_works": "The technology is too distributed and resilient for physical countermeasures. The weakest link is the intelligence or directing entity.",
+        "how_jett_could_counter": "Jett uses a distributed AI across all particles, making the technology completely autonomous and self-directing. There is no central 'head' to cut off. If Jett dies, the dust continues its mission."
+      },
+      "copyright": ["valery_shmelev", "valery_shmeleff", "oflameron"]
+    },
+    {
+      "id": "example_007",
+      "type": "evolutionary_timeline",
+      "source_text": "Jett: It constantly migrates to designated points. It could look like a fly or a speck of fluff. It's a reserve, spare parts.",
+      "query": "Trace the evolutionary path of the cyborg dust from current technology to the Oflameron level, including key breakthrough moments.",
+      "timeline": {
+        "2020-2030": {
+          "era_name": "Foundation Era",
+          "key_developments": [
+            "DARPA creates the first functional smart dust prototypes—sensors the size of rice grains that transmit data",
+            "Micro-electromechanical systems (MEMS) become commercially viable",
+            "Harvard's robotic insects demonstrate controlled flight, though tethered to external power",
+            "Self-assembling modular robots appear in laboratories—blocks the size of dice"
+          ],
+          "limitations": [
+            "No autonomous energy source",
+            "Limited computing power",
+            "No self-repair",
+            "Visible to the naked eye"
+          ]
+        },
+        "2030-2050": {
+          "era_name": "Autonomous Swarm Era",
+          "key_developments": [
+            "First AI-driven swarm coordination algorithms deployed in drone swarms",
+            "Graphene and carbon nanotube manufacturing becomes scalable",
+            "Isotope microbatteries shrink to millimeter scale, providing decades of power",
+            "Quantum computers reach 1000 qubits, enabling complex on-the-fly calculations",
+            "First self-repairing autonomous robots deployed in industrial settings"
+          ],
+          "limitations": [
+            "Particles are still millimeter-sized, not microscopic",
+            "Limited ability to self-assemble into complex structures",
+            "Communication range is limited to meters"
+          ],
+          "breakthrough": "Quantum entanglement communication allows instantaneous control over vast distances"
+        },
+        "2050-2070": {
+          "era_name": "Micro-Swarm Era",
+          "key_developments": [
+            "Micro-scale robots (100-500 micrometers) with onboard AI and power",
+            "Stochastic self-assembly becomes reliable—particles can form simple structures",
+            "MEMS sensors now include navigation, communication, and identification tags",
+            "Advanced metamaterials allow for radar invisibility and EMP resistance",
+            "First successful micro-swarm test for space exploration—particles coat an asteroid for mining"
+          ],
+          "limitations": [
+            "Assembly takes hours",
+            "Complexity of assembled structures is limited",
+            "Energy density still insufficient for sustained operation"
+          ]
+        },
+        "2070-2100": {
+          "era_name": "Nanotech Integration Era",
+          "key_developments": [
+            "Particle size drops to 10-50 micrometers",
+            "Molecular manufacturing allows for complete devices at this scale",
+            "Room-temperature quantum computing in each particle",
+            "Aerodynamic modules miniaturized to insect-wing scale",
+            "Self-replication capability (limited and controlled) emerges"
+          ],
+          "limitations": [
+            "Full self-replication is too dangerous to deploy",
+            "Assembly still requires external energy for complex structures",
+            "Not yet invisible or stealth enough"
+          ]
+        },
+        "2100-2150": {
+          "era_name": "Oflameron Era",
+          "key_developments": [
+            "Fully autonomous cyborg dust with complete self-sufficiency",
+            "Particle-level AI with collective intelligence equivalent to a human mind",
+            "Graphene casings provide EMP immunity and radar stealth",
+            "Virtually unlimited energy from advanced isotope batteries or zero-point energy extraction",
+            "Aerodynamic modules mimic insects for controlled movement",
+            "Assembly of complex devices in minutes, not hours",
+            "Disguised as 'dust' or 'flies' to evade visual detection"
+          ],
+          "capabilities": [
+            "Planetary landings with no ballistic signature",
+            "Invisible reconnaissance networks",
+            "Instant assembly into any device imaginable",
+            "Redundant systems that can recover from 99.9% losses"
+          ]
+        },
+        "Beyond 2150": {
+          "era_name": "Post-Material Era",
+          "speculative_capabilities": [
+            "Particles exist in a state of quantum superposition, being both everywhere and nowhere",
+            "Instantaneous teleportation of assembled structures",
+            "The technology becomes a 'utility' rather than a 'weapon'",
+            "Integration with biological systems—cyborgs are no longer machines but evolved organisms"
+          ]
+        }
+      },
+      "copyright": ["valery_shmelev", "valery_shmeleff", "oflameron"]
+    },
+    {
+      "id": "example_008",
+      "type": "ethical_implications",
+      "source_text": "Jett: The cyborg particles 'disassembled,' and the landing turned into a scattering of dust. There was nothing to hit.",
+      "query": "What are the military and ethical implications of deploying cyborg dust technology in warfare and civilian contexts?",
+      "implications": {
+        "military": {
+          "advantages": [
+            "Minimal collateral damage—the technology is precise",
+            "No risk to personnel—it's autonomous and expendable",
+            "Stealth makes it impossible to detect or intercept",
+            "Can be used for covert operations without attribution"
+          ],
+          "risks": [
+            "Unprecedented arms race—whoever develops it first wins",
+            "Potential for malfunction leading to civilian casualties",
+            "Loss of human oversight—AI makes targeting decisions",
+            "Escalation—the adversary will develop even worse weapons"
+          ]
+        },
+        "civilian": {
+          "benefits": [
+            "Medical applications—targeted drug delivery and surgery",
+            "Environmental cleanup—filtering pollution",
+            "Disaster response—rapid construction and rescue",
+            "Infrastructure inspection and maintenance"
+          ],
+          "risks": [
+            "Privacy nightmare—invisible surveillance everywhere",
+            "Potential for accident—wrong assembly could cause disasters",
+            "Economic disruption—replaces entire industries and jobs",
+            "Existential threat if it becomes self-replicating 'grey goo'"
+          ]
+        },
+        "ethical_frameworks": [
+          {
+            "framework": "Utilitarian",
+            "view": "If the net benefit (peace, survival, medical advances) outweighs the harm, the technology should be developed.",
+            "challenge": "Calculating net benefit is impossible—the risks are catastrophic"
+          },
+          {
+            "framework": "Deontological",
+            "view": "Any weapon that removes human agency from warfare is inherently wrong. War must remain a human decision.",
+            "challenge": "This ignores the reality of modern warfare, where autonomy is already a fact"
+          },
+          {
+            "framework": "Precautionary Principle",
+            "view": "Do not deploy this technology until all risks are fully understood and mitigated. This may mean never.",
+            "challenge": "Adversaries may not follow the same principle, leading to strategic defeat"
+          },
+          {
+            "framework": "Realist",
+            "view": "Develop it, deploy it, and ensure it's yours—because someone else will. Morality is a luxury of the powerful.",
+            "challenge": "This leads to inevitable escalation and potential mutual destruction"
+          }
+        ],
+        "conclusion": "The Oflameron cyborg dust is a classic 'dual-use' technology with enormous potential for good and catastrophic risk. The ethical path is to restrict it to controlled civilian applications while negotiating international treaties to limit military deployment, much like nuclear weapons. However, enforcement is nearly impossible due to the technology's scale and stealth."
+      },
+      "copyright": ["valery_shmelev", "valery_shmeleff", "oflameron"]
+    },
+    {
+      "id": "example_009",
+      "type": "physics_validation",
+      "source_text": "Jett: Each cyborg part is connected to a tiny assembly unit, navigation, power, and aerodynamic modules.",
+      "query": "Analyze the physics of a 10-micrometer particle that contains all these modules. Is it physically possible, or does it violate known laws of physics?",
+      "physical_analysis": {
+        "size_constraints": {
+          "particle_volume": "The volume of a 10-micrometer sphere is 5.24 ? 10^-10 cm?",
+          "molecular_scale": "At this size, the particle contains only about 10^10 atoms—barely enough for a complete device",
+          "component_sizing": [
+            "Assembly unit: Needs locks and guidance—at least 1 micrometer diameter",
+            "Navigation: MEMS gyro—currently 10 micrometers minimum (state-of-the-art), but needs power",
+            "Power: Isotope battery—minimum 5 micrometers for significant energy (theoretical)",
+            "Aerodynamic modules: Wings—at least 10-20 micrometers for lift (based on insect calculations)",
+            "Computing: Quantum chip—theoretically could be 1 micrometer or less",
+            "Total: If you add these all together, they physically can't fit in a 10-micrometer sphere",
+            "Conclusion: Oflameron-level technology requires particles that are at least 50-100 micrometers, which is visible as a speck of dust"
+          ]
+        },
+        "energy_density": {
+          "required_power": "To fly, navigate, and communicate, each particle needs about 1 microwatt of continuous power",
+          "available_energy": "An isotope battery the size of 10 micrometers can provide about 0.01 microwatts—100x too little",
+          "alternative": "External power transmission (lasers, microwaves) could work, but would be detectable and limited by line-of-sight",
+          "conclusion": "Current energy science is insufficient, but theoretical advancements (zero-point energy, antimatter micro-batteries) could solve this—though that's highly speculative"
+        },
+        "aerodynamics": {
+          "flight_at_microscale": "Air feels like molasses to a 10-micrometer particle—viscous forces dominate",
+          "propulsion_needed": "Piezoelectric wings would work, but need high frequency (hundreds of kHz)",
+          "energy_cost": "Flight at this scale costs about 10^-6 watts—within theoretical energy budgets but above current capabilities",
+          "conclusion": "The physics of flight is sound, though the engineering is decades away"
+        },
+        "computing": {
+          "processing_power_needed": "Each particle needs to run navigation algorithms, assembly protocols, and communication—equivalent to a 1960s computer (millions of calculations per second)",
+          "quantum_advantage": "A 1-micrometer quantum chip could provide this, using only 10^-15 watts—within energy budget",
+          "conclusion": "Quantum computing at this scale is theoretically possible and the most plausible part of the technology"
+        },
+        "communication": {
+          "signal_attenuation": "At 10 micrometers, radio signals are absorbed by water vapor and dust; optical (laser) communication is better but requires line-of-sight",
+          "solution": "Particles communicate via a 'mesh network'—each particle talks to its neighbors, relaying signals over distances",
+          "theoretical_possibility": "This is physically sound and already used in drone swarms, but scaling to trillions of particles is a computational challenge"
+        },
+        "overall_verdict": {
+          "violates_known_physics": "No—the individual components are within known physics, even if they are far beyond current engineering",
+          "challenges": [
+            "Energy density needs a 100x breakthrough (not impossible, but requires new physics)",
+            "Assembly algorithms need to be near-perfect to work in chaotic environments (extremely difficult)",
+            "Material science needs to create components at these scales with no defects (challenging but possible)"
+          ],
+          "probability": "The technology is physically plausible if we assume advanced nanotechnology and quantum computing. It does not violate conservation of energy or other fundamental laws. It is 'hard sci-fi,' not fantasy."
+        }
+      },
+      "copyright": ["valery_shmelev", "valery_shmeleff", "oflameron"]
+    },
+    {
+      "id": "example_010",
+      "type": "scenario_building",
+      "source_text": "Steeve: How is it that only your landings were successful? Even with Command's capabilities, with powerful support from orbit, they failed.",
+      "query": "Generate a detailed scenario for a failed Command landing and a successful Jett landing on Oflameron, highlighting the technological differences.",
+      "scenarios": {
+        "command_landing_failed": {
+          "name": "Operation Hammerfall",
+          "objective": "Establish a beachhead on Oflameron with a heavy mechanized force",
+          "method": "Traditional orbital drop pods, with anti-missile defenses and close air support from orbit",
+          "technology_used": [
+            "Heat shields for atmospheric entry",
+            "Parachutes and retro-rockets for deceleration",
+            "Armored drop pods, each carrying 10 soldiers and equipment",
+            "Orbital railguns for precision strikes on defensive positions",
+            "Jamming and decoys to confuse enemy radar"
+          ],
+          "what_went_wrong": [
+            "The enemy's anti-space defenses were more advanced than expected—they used directed energy weapons to intercept drop pods at 50 km altitude",
+            "Countermeasures (decoy pods) were effective, but the enemy had multiple systems, and 60% of the landing force was destroyed before reaching the ground",
+            "The survivors landed in a hornet's nest—the enemy had pre-registered artillery positions and used chemical weapons on the landing zones",
+            "Orbital support was neutralized by surface-to-space missiles, forcing Command to pull back to avoid losing the fleet",
+            "Within 48 hours, the remaining forces were either captured, killed, or in hiding. The mission was a total failure"
+          ],
+          "casualties": "2,500 dead, 500 captured, 0 objectives achieved",
+          "analysis": "Command relied on overwhelming force and traditional tactics. They assumed the enemy would meet them in a conventional fight. Instead, the enemy was prepared and used asymmetric tactics."
+        },
+        "jett_landing_successful": {
+          "name": "Operation Gentle Rain",
+          "objective": "Insert a cyborg infiltration force to disable enemy defenses from within",
+          "method": "Cyborg dust dispersion at high altitude, self-assembly on the ground",
+          "technology_used": [
+            "Cyborg dust—trillions of particles, each with AI, power, navigation, and assembly",
+            "Aerodynamic modules that allow the dust to ride atmospheric currents like dandelion seeds",
+            "The dust was released at 200 km altitude during a storm, making it invisible to radar (it's already dust-sized)",
+            "Ground assembly points were pre-determined—the dust would gather at these points and assemble into specialized units (infantry drones, engineers, medics, spotters)",
+            "EMP shielding, radar stealth, and visual disguise (dust looks like, well, dust)"
+          ],
+          "why_it_worked": [
+            "No ballistic signature—the dust was released with no deceleration burn, no parachutes, no visible reentry. It just floated down over hours",
+            "The enemy's defenses were designed for high-speed ballistic objects, not a dust cloud. They had no response",
+            "The dust assembled in the enemy's rear areas, where they least expected it—inside bunkers, in command posts, near key infrastructure",
+            "The first sign of the attack was when cyborg units began disabling communications, removing sentries silently, and hacking defensive systems",
+            "By the time the enemy realized what was happening, the cyborg force had neutralized their command and control. The enemy surrendered within 24 hours"
+          ],
+          "casualties": "0 casualties (Jett's side), minimal collateral damage (few dozen enemy casualties from 'friendly fire' caused by hacked systems)",
+          "analysis": "Jett's success was based on leveraging superior technology to bypass traditional defenses entirely. The enemy couldn't fight what they couldn't see. The 'invisible' landing was the key tactical advantage."
+        },
+        "comparison": {
+          "command_approach": "Overwhelming force, traditional tactics, visible, predictable",
+          "jett_approach": "Stealth, distribution, asymmetry, technological superiority",
+          "lesson": "On Oflameron, the side with the better technology and tactics wins, regardless of numbers or orbital support"
+        }
+      },
+      "copyright": ["valery_shmelev", "valery_shmeleff", "oflameron"]
+    },
+    {
+      "id": "example_011",
+      "type": "hard_science_question",
+      "source_text": "Jett: Cyborg particles are composed of very small particles that have identification tags and can be assembled into a specific device.",
+      "query": "How would identification tags at the nanoscale work, and what technologies are currently being researched for this purpose?",
+      "tag_technologies": {
+        "quantum_dots": {
+          "description": "Semiconductor nanocrystals that emit specific wavelengths of light when excited. Different sizes produce different colors, creating a unique 'spectral barcode'.",
+          "current_status": "Already used in biological labeling and displays. Can be manufactured at the nanometer scale.",
+          "application_to_cyborg_dust": "Each particle could have a unique quantum dot pattern that is read optically—but this requires external illumination, which is a tactical disadvantage"
+        },
+        "molecular_barcodes": {
+          "description": "Short sequences of DNA or synthetic polymers that can be read by sequencing or hybridization. Each sequence is a unique identifier.",
+          "current_status": "Extensively used in DNA data storage. The challenge is reading them quickly.",
+          "application_to_cyborg_dust": "Could work, but reading requires chemical or biological sensors, which add complexity"
+        },
+        "plasmonic_nanoparticles": {
+          "description": "Metal nanoparticles that scatter light in specific patterns based on their shape and size. Similar to quantum dots but more robust.",
+          "current_status": "Used in sensing and medical diagnostics. Can be read with simple optics.",
+          "application_to_cyborg_dust": "Very promising—requires minimal energy to read (just detect scattered light). The particles themselves are the tags"
+        },
+        "magnetic_tags": {
+          "description": "Small magnetic regions that encode binary information. Like a microscopic barcode that is read by a magnetic sensor.",
+          "current_status": "Used in hard drives and some research applications. Reading requires a magnetic sensor, which is bulky.",
+          "application_to_cyborg_dust": "Less suitable because the sensor adds size and power requirements"
+        },
+        "atomically_precise_tags": {
+          "description": "Arranging individual atoms to create a unique pattern, like a QR code at the atomic level.",
+          "current_status": "Theoretical—we can position atoms with STM, but not scalably.",
+          "application_to_cyborg_dust": "The ultimate solution—tags that are part of the material itself, requiring no additional components. But this is sci-fi for now."
+        }
+      },
+      "functional_requirements": {
+        "size": "Must fit within a 10-50 micrometer particle without consuming significant volume",
+        "readability": "Must be readable by other particles during assembly (tag-to-tag communication)",
+        "uniqueness": "The total number of tags must be astronomically large (to avoid collisions in a swarm of trillions)",
+        "robustness": "Must survive atmospheric entry, chemical exposure, and electromagnetic interference",
+        "energy": "Must be readable without active power—preferably passive (like a barcode)"
+      },
+      "recommendation": {
+        "best_candidate": "Quantum dots or plasmonic nanoparticles—they are passive, readable with simple optics, and already exist at the required scale.",
+        "challenge": "The particle needs a micro-lens or sensor to read the tags on other particles, which adds complexity. Alternatively, particles could use optical scattering to identify each other without a dedicated sensor."
+      },
+      "sci_fi_solution": "The cyborg dust uses a combination of plasmonic nanoparticles and AI pattern recognition. Each particle's surface is covered with a unique pattern of nanoparticles that is read by the AI through reflected light. The AI can identify any particle in the swarm by its unique 'surface signature'—like a fingerprint at the molecular level."
+    },
+    {
+      "id": "example_012",
+      "type": "creative_continuation",
+      "source_text": "Steeve: It's slow and takes a long time. And the paratroopers were already in place by the time we arrived.\nJett: Well, that's still a secret.",
+      "query": "Write a short narrative continuation where Jett reveals the secret to Steeve, and Steeve reacts. Keep it consistent with the technology described.",
+      "narrative": {
+        "setting": "Jett's private quarters aboard the flagship, after the successful landing. Steeve is debriefing her.",
+        "dialogue": [
+          {
+            "speaker": "Steeve",
+            "text": "Jett, you've won. Oflameron is ours. But you owe me an explanation. How did you do it? The dust should have taken weeks to migrate and assemble. We were there in hours."
+          },
+          {
+            "speaker": "Jett",
+            "text": "Steeve, you know the principles. The dust, the excess, the migration. But you're right—that alone would have taken too long."
+          },
+          {
+            "speaker": "Steeve",
+            "text": "So what was it? What's the secret? I'm your commander. You can trust me."
+          },
+          {
+            "speaker": "Jett",
+            "text": "Steeve... the dust wasn't the landing force. It was the decoy. The real landing force was already there. I seeded Oflameron with cyborg factories six months ago. We've been building an army under their noses the entire time."
+          },
+          {
+            "speaker": "Steeve",
+            "text": "Six months?! But we only just arrived! How did you—"
+          },
+          {
+            "speaker": "Jett",
+            "text": "Probes. Small, stealthy probes that look like meteor fragments. They were programmed to release nanite seed colonies on impact. The colonies grew over months, manufacturing the cyborg dust and assembling the force from local materials."
+          },
+          {
+            "speaker": "Steeve",
+            "text": "But the dust we saw—the 'landing'—that was just... a distraction?"
+          },
+          {
+            "speaker": "Jett",
+            "text": "Exactly. I knew Command would question how I succeeded where they failed, so I described a technology that sounds plausible but impossible to prove. The real technology is one step beyond—the ability to build an entire army from dirt and air, invisibly, over time. The dust was just the spark that lit the fire."
+          },
+          {
+            "speaker": "Steeve",
+            "text": "And the paratroopers? They were already there because they were built there. We didn't deploy them—they were waiting for us."
+          },
+          {
+            "speaker": "Jett",
+            "text": "Now you understand. But this stays between us. If Command knew the full extent of what I've done, they'd be terrified. And they'd want to control it. But some technologies are too powerful to be used by just anyone. That's why the secret stays with me."
+          },
+          {
+            "speaker": "Steeve",
+            "text": "Jett... what are you? What will you do with this power?"
+          },
+          {
+            "speaker": "Jett",
+            "text": "For now? Win the war. And after that... I don't know yet. But I promise you, Steeve, I won't let it be used for tyranny. That's the most I can offer you."
+          }
+        ],
+        "theme": "The secret isn't just a technology—it's a fundamental shift in how wars are fought. Jett has become a one-woman army, and she knows it. Steeve realizes he's dealing with someone beyond his experience, and possibly beyond his control."
+      },
+      "copyright": ["valery_shmelev", "valery_shmeleff", "oflameron"]
+    }
+  ],
+  "training_guidance": {
+    "recommended_approaches": [
+      "Use examples 006-012 to show how to expand a single technological concept into multiple dimensions: countermeasures, timeline, ethics, physics, narrative scenarios",
+      "Encourage the model to blend hard science with creative speculation",
+      "Emphasize the importance of internal consistency—the technology should follow its own rules",
+      "Show how the same technology can be viewed from different angles (military, civilian, ethical, physical)",
+      "Demonstrate how to connect science to story in a natural way"
+    ],
+    "copyright_attribution": "All examples include copyright attribution to the author valery_shmelev (also known as valery_shmeleff and oflameron). This should be preserved in any training or deployment."
+  }
+}
+
+
+https://t.me/mdatasets
+
+
+https://github.com/vallshmeleff/ai-prompts-for-screenplay-plan
+https://www.tumblr.com/blog/sci-fi-screenplay
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
