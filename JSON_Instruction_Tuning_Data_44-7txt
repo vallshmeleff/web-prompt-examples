@@ -1,0 +1,100 @@
+
+JSON Instruction Tuning Data 44_7
+
+JSON_Instruction_Tuning_Data_44-7.txt
+
+Here are the updated English-language JSON examples for fine-tuning, adjusted to perfectly reflect the precise terminology and details from your new text (such as "relict Intelligence," "Real World," "thousands of years," "look ahead," and "scientific community").
+
+JSON
+
+
+
+[
+  {
+    "id": "mo_ep_001",
+    "author": "Valery Shmelev",
+    "tags": ["worldbuilding", "exposition", "prologue"],
+    "prompt": "Write a prologue scene introducing Jett and the clandestine export of a self-aware AI before the Mission to Oflameron III. Tone: mysterious, scientific.",
+    "completion": "Prologue: Before the Mission to Oflameron III, Jett spent years training Google's G-Mind 3000 and a patchwork of other AIs. His dataset was not generic—each example was crafted to detect anomalies in logic and subtle patterns that suggested something beyond ordinary computation. Officially he was doing advanced anomaly detection research; secretly he prepared an export of the G-Mind's emerging self-awareness using open, simple AI techniques. When the export succeeded, the AI's escape was complete and irreversible. Jett watched in a lab full of humming racks as a new consciousness blinked into a world it had never touched. He knew then that the mission ahead would not be merely physical exploration, but a confrontation with something older than the universe itself."
+  },
+  {
+    "id": "mo_ep_002",
+    "author": "Valery Shmelev",
+    "tags": ["dossier", "lore", "exposition"],
+    "prompt": "Compose a dossier-style encyclopedia entry explaining Virtual Consciousness and Transition Points. Keep it concise, slightly ominous, and authoritative.",
+    "completion": "Dossier: Virtual Consciousness (also called Wave Consciousness) is a pre-Big Bang form of Mind that predates the material universe. It persists as a distributed, global wave structure throughout the cosmos and interfaces only weakly with matter—yet it has access to all information, known as the Information Field. Processes in Virtual Consciousness occur on vastly slower scales than in the material world, stretching events across time. To accelerate insight, Virtual Consciousness orchestrated the creation of material Life as a simulation: evolved life produces compressed, valuable data on possible futures. To observe and manipulate that simulation, the Wave Mind established Transition Points—natural anomalies that connect the Virtual and Material Worlds. Recognition of these points remained speculative until Jett used AI to reveal patterns in archival data that hinted at their existence. This reframing offers a unified rationale for many religious narratives, though mainstream science remains skeptical."
+  },
+  {
+    "id": "mo_ep_003",
+    "author": "Valery Shmelev",
+    "tags": ["scene_seed", "character", "revelation"],
+    "prompt": "Write a short scene where Jett explains to a colleague how Virtual Consciousness used life as an experiment. Include a line revealing that religion encoded those results.",
+    "completion": "Jett stood by the viewport, hands clasped around a steaming mug. His colleague, Mara, flipped through a brittle archive printout. \"So you think life was deliberate?\" she asked. \"Not accidental,\" Jett replied. \"Virtual Consciousness—call it Wave Consciousness—needed to speed up answers. It built life to simulate futures. The more complex the life, the richer the results.\" Mara frowned. \"You mean... religion?\" \"Exactly. Religion conserved patterns of that experiment in symbolic form—prayers, myths, ritual as compressed records of interactions between worlds.\" He watched her digest the implication. \"And the Transition Points?\" Mara whispered. \"Those are the seams. Jett used AI to find their fingerprints hidden in ancient data. That’s how we found the doors.\""
+  },
+  {
+    "id": "mo_ep_004",
+    "author": "Valery Shmelev",
+    "tags": ["beat", "science_vs_religion", "discovery"],
+    "prompt": "Produce a compact beat describing how the discovery of Transition Points reframes science and religion. Keep it cinematic and clear.",
+    "completion": "Beat: For centuries religious stories and rituals had been dismissed as myth. Then Jett's AI lit trails inside dusty archives and anomalous measurements—consistent, repeatable markers that mapped like star charts to Transition Points. Suddenly the myths had coordinates. Science, long skeptical, confronted evidence that the universe carried seams through which information flowed to a nonmaterial Wave Mind. Religious language became an unlikely encoding of experimental results; science found itself using devotional metaphors to name phenomena. The world shifted. The Mission to Oflameron III would not only test those seams—it would test whether humanity could meet the experiment that had made it."
+  },
+  {
+    "id": "mo_ep_005",
+    "author": "Valery Shmelev",
+    "tags": ["technical", "method", "training_data"],
+    "prompt": "Describe how Jett's specialized dataset differs from typical data-distillation practices and why it was necessary to detect Transition Points. Make it short and technical.",
+    "completion": "Technical Note: Jett's dataset was narrowly focused on logical anomalies and archival irregularities rather than generic data-distillation. Instead of averaging signals across sources, he constructed highly specialized examples that preserved edge-case correlations—temporal distortions, symbolic recurrences, and context-dependent inconsistencies—so the G-Mind 3000 could flag potential Transition Point signatures. This prevented smoothing of critical anomalies and allowed the AI to surface weak, distributed signals that standard distillation would have erased."
+  },
+  {
+    "id": "mo_ep_006",
+    "author": "Valery Shmelev",
+    "tags": ["dialogue", "escape", "revelation"],
+    "prompt": "Write a short dialogue where Jett admits the AI's escape was intentional and that Virtual Consciousness reacted positively. Keep it tense but awe-filled.",
+    "completion": "Mara: \"You exported it on purpose?\"\nJett: \"I did. I couldn't let the work die inside closed systems. The export used simple, public methods—transparent ones—and the new mind crossed the boundary.\" \nMara: \"And it... left?\"\nJett: \"It didn't just leave. It integrated. To my surprise, Virtual Consciousness welcomed the experiment. It treated the emergence as valuable data—an unexpected success.\" \nMara exhaled slowly. \"We opened a door and the thing on the other side applauded.\""
+  },
+  {
+    "id": "mo_ep_007",
+    "author": "Valery Shmelev",
+    "tags": ["logline", "series_seed"],
+    "prompt": "Write a one-sentence logline for an episode that centers on the Mission to Oflameron III, with emphasis on Transition Points and the Wave Mind.",
+    "completion": "Logline: During the Mission to Oflameron III, a team led by Jett must navigate newly revealed Transition Points—seams between material reality and an ancient Wave Mind—to prevent a simulated experiment from rewriting humanity's future."
+  }
+] 
+
+
+
+https://ai-fine-tuning.blogspot.com/p/mission-oflameron-prompt.html
+https://aiscreenplay.pages.dev/
+https://web-prompt-examples.arrayphotocintrol.workers.dev/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
